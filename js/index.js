@@ -30,21 +30,20 @@
 				pauseOnHover : false,	
 				vertical : false,	
 				draggable : true, 
-        mobileFirst: false,
+        			mobileFirst: false,
 				
-				responsive: [ // 반응형 옵션
-					{ 
-						breakpoint: 767, //화면 사이즈 768px
-						settings: {	
-							//위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-              slidesToShow:1,
-              slidesToScroll:1,
-              infinite:true,
-							//settings: 'unslick'
-						} 
-					}
-				]
-			});
+			responsive: [ // 반응형 옵션
+				{ 
+					breakpoint: 767, //화면 사이즈 768px
+					settings: {	
+					      slidesToShow:1,
+					      slidesToScroll:1,
+					      infinite:true,
+						//settings: 'unslick'
+					} 
+				}
+			]
+		});
   
 
       //센터현황 각 div 호버시 해당 이미지로 바뀌기
